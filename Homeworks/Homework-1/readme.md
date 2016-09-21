@@ -2,7 +2,7 @@
 This is homework 1 in the text book: 
 Building Cross-Platform Mobile and Web Apps for Engineers and Scientists.
 
-## Chapter 2, page 40.
+### Chapter 2, page 40.
 Question 3- Electricity Calculation: Create a web page that describes the physical relationship
             between current, voltage, resistance, and the amount of electricity consumed.
             
