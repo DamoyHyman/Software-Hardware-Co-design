@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+    <title>Electricity Calculations</title>
+    <link rel="stylesheet" href ="css/jquery.mobile-1.3.1.min.css">
+         <script type ='text/javascript' src="scripts/ElectricityCalculation.js"></script>
+    <script src="scripts/jquery-1.8.3.min.js"></script>
+    <script src="scripts/chromeFileProtocolFix.js"></script>
+    <script src="scripts/jquery.mobile-1.3.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div data-role="page">
+            <div data-role="navbar">
+            <ul>
+             <li><a href="Information%20-%20Copy.html">Information Section</a></li>
+            <li><a href="Index.html" class="ui-btn-active ui-state-persist">Interface Section</a></li>
+                </ul>
+            </div>
+            
+            <div data-role="content">
+                
+                <label for="current">Current:</label>
+                <input type="number" id='current' min='0' placeholder="In Ampheres">
+                <label for="voltage">Voltage</label>
+                <input type="number" id='voltage' min='0' placeholder="In Voltage">
+                <label for="resistance">Resistances:</label>
+                <input type="number" id='resistance' min='0' placeholder="In Ohms">
+                <br>
+                <button onclick="display();">Display</button>
+                <br>
+                <table>
+                <tr>
+                    <td>Current Entered:</td>
+                    <td id='currentDisplay'>0</td>
+                    <td> A</td>
+                </tr>
+                    <tr>
+                        <td>Voltage Entered:</td>
+                        <td id='voltageDisplay'>0</td>
+                        <td> V</td>
+                    </tr>
+                    <td>Resistance Entered:</td>
+                    <td id='resistanceDisplay'>0</td>
+                    <td> Ohms</td>
+                    <tr>
+                    
+                    </tr>
+                </table>
+            </div>
+          
+            <div data-role=footer>
+            <small>Electricity App.</small>
+            </div>
+            
+        </div>
+    </body>
+    
+</html>
